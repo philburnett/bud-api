@@ -1,0 +1,23 @@
+{
+    "name": "philburnett/bud-api",
+    "description": "Bud Api Library",
+    "authors": [
+        {
+            "name": "Phil Burnett",
+            "email": "philburnett@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.2",
+        "phpunit/phpunit": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "BudApi\\": "src/",
+            "UnitTest\\BudApi\\": "tests/AffordabilityChecker/"
+        }
+    }
+}
