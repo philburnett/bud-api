@@ -6,9 +6,9 @@ class DroidSpeakToEnglishTranslator
 {
     /**
      * @param string $input
-     * @return array
+     * @return string
      */
-    public function translate(string $input)
+    public function translate(string $input): string
     {
         $inputArray  = explode(' ', $input);
         $translation = '';

@@ -10,7 +10,9 @@ class PrisonerClient extends AbstractClient
 
     /**
      * @param $id
-     * @return bool
+     * @return array
+     * @throws Exception
+     * @throws Exception
      * @throws Exception
      */
     public function get($id): array

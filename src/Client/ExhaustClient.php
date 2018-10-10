@@ -6,7 +6,7 @@ use Exception;
 
 class ExhaustClient extends AbstractClient
 {
-    const PATH = '/reator/exhaust';
+    const PATH = '/reactor/exhaust';
 
     /**
      * @param $id

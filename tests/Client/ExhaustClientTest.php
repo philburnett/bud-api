@@ -44,7 +44,7 @@ class ExhaustClientTest extends MockeryTestCase
         $this->tokenProvider->shouldReceive('getAuthHeader')->andReturn('Badgers');
         $this->httpClient->shouldReceive('delete')
             ->with(
-                ' https://death.star.api/reator/exhaust/1',
+                ' https://death.star.api/reactor/exhaust/1',
                 [
                     'headers' => [
                         'Authorization' => 'Badgers',
